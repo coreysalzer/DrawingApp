@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A55AD62D1E54F6610081EEEF /* Stroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55AD62C1E54F6610081EEEF /* Stroke.swift */; };
 		A5E8B7231E5227520008B118 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E8B7221E5227520008B118 /* AppDelegate.swift */; };
 		A5E8B7251E5227520008B118 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E8B7241E5227520008B118 /* ViewController.swift */; };
 		A5E8B7281E5227520008B118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5E8B7261E5227520008B118 /* Main.storyboard */; };
 		A5E8B72A1E5227520008B118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5E8B7291E5227520008B118 /* Assets.xcassets */; };
 		A5E8B72D1E5227520008B118 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5E8B72B1E5227520008B118 /* LaunchScreen.storyboard */; };
+		A5E8B7351E5228620008B118 /* StrokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E8B7341E5228620008B118 /* StrokeView.swift */; };
+		A5E8B7371E522CA70008B118 /* ColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E8B7361E522CA70008B118 /* ColorButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A55AD62C1E54F6610081EEEF /* Stroke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stroke.swift; sourceTree = "<group>"; };
 		A5E8B71F1E5227520008B118 /* CoreySalzer-Lab3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreySalzer-Lab3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5E8B7221E5227520008B118 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5E8B7241E5227520008B118 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		A5E8B7291E5227520008B118 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5E8B72C1E5227520008B118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5E8B72E1E5227520008B118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5E8B7341E5228620008B118 /* StrokeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrokeView.swift; sourceTree = "<group>"; };
+		A5E8B7361E522CA70008B118 /* ColorButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				A5E8B7291E5227520008B118 /* Assets.xcassets */,
 				A5E8B72B1E5227520008B118 /* LaunchScreen.storyboard */,
 				A5E8B72E1E5227520008B118 /* Info.plist */,
+				A5E8B7341E5228620008B118 /* StrokeView.swift */,
+				A5E8B7361E522CA70008B118 /* ColorButton.swift */,
+				A55AD62C1E54F6610081EEEF /* Stroke.swift */,
 			);
 			path = "CoreySalzer-Lab3";
 			sourceTree = "<group>";
@@ -138,6 +147,9 @@
 			files = (
 				A5E8B7251E5227520008B118 /* ViewController.swift in Sources */,
 				A5E8B7231E5227520008B118 /* AppDelegate.swift in Sources */,
+				A55AD62D1E54F6610081EEEF /* Stroke.swift in Sources */,
+				A5E8B7351E5228620008B118 /* StrokeView.swift in Sources */,
+				A5E8B7371E522CA70008B118 /* ColorButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +311,7 @@
 				A5E8B7331E5227520008B118 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
